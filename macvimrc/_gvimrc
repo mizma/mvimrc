@@ -1,0 +1,4 @@
+colorscheme beauty256
+
+set lines=50
+set columns=85

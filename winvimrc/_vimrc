@@ -61,7 +61,7 @@ set visualbell
 set lines=50
 set columns=85
 set swb="split"
-colorscheme beauty256
+colorscheme mocha
 
 "=======================================================================
 " Folding stuff
@@ -103,7 +103,6 @@ if has("gui_win32")
 else
   au BufNewFile,BufRead fstab setf fstab
   if has("gui_running")
-    colorscheme jancol
     set imactivatekey=S-space
     inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
     if $HOSTNAME == "vaio"
@@ -112,7 +111,6 @@ else
       set guifontset=-alias-fixed-medium-r-normal-*-*-160-*-*-c-*-jisx0201.1976-0
     endif
   else
-    colorscheme peachpuff
     set mouse=a
   endif
 endif
