@@ -1,0 +1,12 @@
+Mizma's personal vimrc files.
+mizmaの個人的vimrcファイル
+
+not a very clean implementation yet and without any install script.
+
+winvimrc
+  assumes Standard Vim distribution from the Vim project page.
+
+macvimrc
+  assumes MacVim-Kaoriya distribution:
+    http://code.google.com/p/macvim-kaoriya/
+
