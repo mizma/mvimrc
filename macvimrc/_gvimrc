@@ -1,4 +1,4 @@
-colorscheme beauty256
+colorscheme mocha
 
 set lines=50
 set columns=85

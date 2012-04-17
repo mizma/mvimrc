@@ -17,7 +17,8 @@ hi WildMenu guifg=#000000 guibg=#ffffff guisp=#ffffff gui=NONE ctermfg=NONE cter
 hi SpecialComment guifg=#27408b guibg=NONE guisp=NONE gui=NONE ctermfg=18 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#27408b guibg=NONE guisp=NONE gui=bold ctermfg=18 ctermbg=NONE cterm=bold
 hi Title guifg=#27408b guibg=NONE guisp=NONE gui=NONE ctermfg=18 ctermbg=NONE cterm=NONE
-hi Folded guifg=#000000 guibg=#bbbbbb guisp=#bbbbbb gui=NONE ctermfg=NONE ctermbg=250 cterm=NONE
+hi Folded guifg=#b08020 guibg=#f0e8c0 gui=NONE ctermfg=lightblue ctermbg=DarkGrey cterm=bold
+hi FoldColumn guifg=DarkBlue guibg=grey78 gui=Bold ctermfg=DarkBlue ctermbg=Grey cterm=Bold
 hi PreCondit guifg=#3a5fcd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Include guifg=#3a5fcd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 "hi TabLineSel -- no settings --
