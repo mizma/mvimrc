@@ -83,6 +83,7 @@ fu! SetTextmode()
   set shiftwidth=4
   set tabstop=4
   set nofen
+  set syntax=markdown
 endf
-au BufNewFile,BufRead *.txt call SetTextmode()
+au BufNewFile,BufRead *.txt,*.markdown call SetTextmode()
 
