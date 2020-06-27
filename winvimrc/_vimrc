@@ -8,8 +8,8 @@ source $VIMRUNTIME/vimrc.common.vim
 
 "=======================================================================
 if has("gui_win32")
-"	set guifont=‚l‚r_ƒSƒVƒbƒN:h10:cSHIFTJIS
-	set guifont=konatuTohaba:h10:cSHIFTJIS
+"	set guifont=â€šlâ€šr_Æ’SÆ’VÆ’bÆ’N:h10:cSHIFTJIS
+	set guifont=å°å¤_ç­‰å¹…:h10:cSHIFTJIS
 else
   au BufNewFile,BufRead fstab setf fstab
   if has("gui_running")
